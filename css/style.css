@@ -287,7 +287,7 @@ input[type="submit"] {
 
 /* logo */
 .logo-holder {
-    left: 50%;
+    left: 40%;
     margin: 0 0 0 -575px;
     position: absolute;
     top: 272px;
@@ -455,16 +455,44 @@ input[type="submit"] {
 
 /* countdown */
 
+.cd-title h4{
+font-size: 20px;
+text-align: center;
+} 
+
+
 #countdown {
 background: #fff;
-border-left: 1px solid #a2a5a8;
-border-top: 1px solid #a2a5a8;
-margin: 10px 0 15px 0;
-width: 192px;
-padding: 8px 8px 20px 8px;
+border: 0px;
+margin: 5px 0 0 0;
+width: 100%;
+padding: 0px 0px 0px 0px;
 float: left;
-
 }
+
+.hasCountdown {
+border: 1px solid #ccc;
+border-top: none;
+background-image: -webkit-gradient(linear, 0% 0%, 0% 150%, from(#FFFFFF), to(#960400));
+background-image: -moz-linear-gradient(0% 150% 0deg,#FFFFFF, #960400);
+
+font-size: 20px;
+padding-top: 10px;
+height: 40px;
+}
+
+
+.count {
+
+border: 2px solid #960400;
+box-shadow: 0 3px 0 #FFFFFF;
+color: #000000;
+box-shadow:inset 0px 0px 5px rgba(0,0,0,.5);
+-webkit-box-shadow:inset 0px 5px 5px rgba(0,0,0,.5);
+-moz-box-shadow:inset 0px 5px 5px rgba(0,0,0,.5);
+}
+
+
 
 /* user-menu */
 .user-menu {
@@ -553,9 +581,10 @@ float: left;
 
 .social li  {
     float: right;
-    margin: 0 6px 6px 0;
+    margin: 0 7px 0px 0;
     transition: all 0.2s ease-in-out 0s;
-    padding-top: 0;
+    padding-top: 5px;
+
   }
 
 .social img {
@@ -572,12 +601,23 @@ float: left;
 
 /* banner */
 .banner {
-    padding: 20px 0 20px 0;
-    height: 150px;
-    background-image: url(../img/dot-pattern.png);
+    padding: 0 0 0 0;
+    background-image: url('../img/baner.png');
     text-align: center;
     margin: 15px 0 10px 0;
+    height:200px;
+   
 }
+
+.banner-bottom{
+    padding: 0 0 0 0;
+    background-image: url('../img/baner.png');
+    text-align: center;
+    margin: 15px 0 10px 0;
+    height:200px;
+   
+}
+
 .banner img {
     
     padding: 20px;
@@ -586,12 +626,39 @@ float: left;
 
 .date {
 display: inline-block;
-background-color: rgba(256, 256, 256, 0.7);
- padding: 23px;
-margin: 20px;
-color: #000;
-font-size: 1.4em;
+margin: 40px 0 0px 67px;
+color: #fff;
+text-shadow: 1px 1px 1px #000;
 font-weight: bold;
+text-transform: uppercase;
+text-align: left;
+}
+
+.word1 {
+    font-size: 35px;
+    font-family: 'Gothic';
+    padding: 10px 0 5px 0;
+    letter-spacing: 4px;
+    font-weight: lighter;
+
+}
+
+.word2 {
+    font-size: 18px;
+    font-family: 'Gothic';
+    padding: 20px 0 5px 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.word2 span {
+    font-size: 25px;
+}
+
+.word3 {
+    padding: 20px 0 5px 15px;
+    font-size: 40px;
+     font-weight: lighter;
+     letter-spacing: 15px;
 }
 
 /* header-bottom */
@@ -706,14 +773,15 @@ font-weight: bold;
     min-width: 60px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
+    border-bottom: 0;
+    line-height: 50px;
 }
 
 #block-system-main-menu .menu a:hover,
 #block-system-main-menu .menu .active,
 #block-system-main-menu .menu .active-trail {
     background: #960400;
-    opacity: 0.7;
     color: white;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -723,30 +791,7 @@ font-weight: bold;
 /* search */
 
 /* messages */
-.messages {
-    font-size: 14px;
-    line-height: 16px;
-}
 
-div.messages {
-    border: none;
-    margin: 0 0 10px 0;
-    padding: 10px;
-}
-
-div.status {
-    background-color: #E6E7E9;
-    background-image: none;
-    color: #44555F;
-}
-
-div.error {
-    background-image: none;
-}
-
-div.warning {
-    background-image: none;
-}
 
 /* tabs */
 .tabs {
@@ -869,11 +914,13 @@ div.warning {
     right: -35px;
 }
 
+
+
 .slideshow-pager {
     left: 610px;
     position: absolute;
     top: 290px;
-    z-index: 101;
+    z-index: 901;
 }
 
 .slideshow-pager span {
@@ -882,7 +929,7 @@ div.warning {
     float: left;
     height: 10px;
     margin: 0 10px 0 0;
-    text-indent: -9999px;
+  text-indent: 9999px;
     width: 10px;
 }
 
@@ -1366,38 +1413,6 @@ div.warning {
 }
 
 /* social-login */
-.social-login {
-    font-family: 'Gothic', 'HelveticaNeueW01-75Bold', Helvetica, Arial, sans-serif;
-    line-height: 42px;
-    list-style: none;
-    margin: 0 0 20px 0;
-    padding: 0;
-}
-
-.social-login li {
-    margin: 0 0 5px 0;
-}
-
-.social-login a {
-    background-color: #E42313;
-    background-position: 5px center;
-    background-repeat: no-repeat;
-    color: #FFF;
-    display: block;
-    padding: 0 10px 0 43px;
-}
-
-.social-login .facebook {
-    background-image: url(../img/facebook-2.png);
-}
-
-.social-login .twitter {
-    background-image: url(../img/twitter-2.png);
-}
-
-.social-login .google {
-    background-image: url(../img/google-2.png);
-}
 
 /* tools */
 .tools {
@@ -1571,6 +1586,105 @@ div.warning {
     background: url(../img/next.png);
     right: -35px;
 }
+
+.countdown-bar {
+
+    height: 380px;
+    margin: 0 0 0 0;
+    position: absolute;
+    top: 0%;
+    width: 230px;
+    z-index: 101;
+ 
+    right: -245px;
+}
+
+.countdown-bar-menu li {
+    list-style: none;
+}
+
+.countdown-bar-menu li a {
+    border: 2px solid #960400;
+border-bottom: 2px solid #960400;
+box-shadow: 0 3px 0 #FFFFFF;
+color: #000000;
+background-image: -webkit-gradient(linear, 0% 0%, 0% 150%, from(#FFFFFF), to(#960400));
+background-image: -moz-linear-gradient(0% 150% 0deg,#FFFFFF, #960400);
+display: block;
+font-size: 20px;
+font-weight: 500;
+padding-bottom: 10px;
+padding-top: 15px;
+margin-bottom: 2px;
+position: relative;
+transition: all 0.2s ease-in-out 0s;
+width: 226px;
+float: right;
+text-decoration: none;
+text-align: center;
+
+}
+
+.countdown-bar-menu li a:hover {
+background-color: rgba(255,255,255,.5);
+margin-right: 10px;
+opacity: 0.5;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+text-decoration: none;
+}
+
+
+
+
+
+.countdown-bar-menu2 li {
+    list-style: none;
+    display: block; 
+    width: 220px;
+    float: right;
+}
+
+
+.countdown-bar-menu2  li a {
+width: 220px;
+border-bottom: 2px solid #960400;
+box-shadow: 0 3px 0 #FFFFFF;
+box-shadow:inset 0px 10px 10px rgba(0,0,0,.5);
+-webkit-box-shadow:inset 0px 10px 10px rgba(0,0,0,.5);
+-moz-box-shadow:inset 0px 10px 10px rgba(0,0,0,.5);
+color: #000000;
+display: block;
+font-size: 16px;
+font-weight: 400;
+padding: 12px 10px 7px 0;
+position: relative;
+transition: all 0.2s ease-in-out 0s;
+float: right;
+text-decoration: none;
+text-align: right;
+}
+
+.countdown-bar-menu2  li a img{
+float: left;
+margin-left: 15px;
+ }
+
+
+
+.countdown-bar-menu2 li a:hover {
+background-color: rgba(255,255,255,.5);
+margin-right: 10px;
+opacity: 0.5;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+text-decoration: none;
+}
+
+
+
 
 .event-slideshow-pager {
     left: 610px;
