@@ -135,7 +135,13 @@ a:focus {
 }
 
 li a.active {
-    color: #E42313;
+    color: #960400;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #960400;
+    text-decoration: none;
 }
 
 p {
@@ -790,7 +796,7 @@ text-align: left;
     width:230px;
     background:#CDD9E5;
     float:right;
-    height:500px;
+    height:300px;
 }
 .widget-area .widget.widget_speakers { 
     width:229px; 
@@ -800,10 +806,10 @@ text-align: left;
 }
 
 .widget-area .widget.widget_speakers .widget-title { 
-background: url('..img/PEC_icon.ico') no-repeat #ebf3fa; 
+
 height:48px; 
 position:relative; 
-padding:14px 0 0 68px; 
+padding:14px 0 0 10px; 
 color:#4c6d98; 
 font-size:15px; 
 line-height:18px; 
@@ -814,26 +820,22 @@ margin:0}
     border-top: 1px solid #95B4D2;
     border-bottom: 1px solid #95B4D2;
     padding:20px 0px 10px 0px;
+    overflow: scroll;
 }
 
 
-.speakers {
-    border-top: 1px solid #95B4D2;
-    border-bottom: 1px solid #95B4D2;
-    padding:20px 0px 10px 0px;
-}
 .scrollable {
     /* required settings */
     position:relative;
-    overflow:hidden;
+    overflow: scroll;
     width: 229px;
-    height:600px;   
+    height:400px;   
 }
 .scrollable .items {
     /* this cannot be too large */
-    height:20000em;
+    height:400px;
     width:229px;
-    position:absolute;
+    
 }
 .items div.scroll {
     float:left;
@@ -841,19 +843,29 @@ margin:0}
 .personWrapper{display:block; position:relative; height:77px; margin:0; padding:0; overflow:hidden;}
 .personWrapper .personScroll { position:absolute; bottom:0; left:0; margin:0; padding:0;}
 
-.scrollable .personScroll { display:block; width:210px; height:57px; margin: 0px 0px 20px 10px; background-color: #FFFFFF;}
+.scrollable .personScroll { 
+    display:block; width:210px; height:90px; margin: 0px 0px 20px 10px;
+  background-color: #FFFFFF;}
 .scrollable .w_member_img img { float:left; margin:0px 10px 0px 0px;}
-.scrollable .sidebar_detail {font-family: Arial, Helvetica, sans-serif; color: #999999; font-size: 11px; font-weight: normal;   text-decoration:none; line-height:13px; }
-.widget-area .widget.widget_speakers a.prev { background:url(imgs/members_prev.png) no-repeat;}
-.widget-area .widget.widget_speakers a.next { background:url(imgs/members_next.png) no-repeat;}
-.widget-area .widget.widget_speakers a.browse { width:24px; height:22px; display:block; cursor:pointer; float:left}
+.scrollable .sidebar_detail {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #999999; 
+    font-size: 12px; 
+    font-weight: normal;   
+    text-decoration:none; line-height:13px; }
+.widget-area .widget.widget_speakers a.prev { 
+    background:url(imgs/members_prev.png) no-repeat;}
+.widget-area .widget.widget_speakers a.next { 
+    background:url(imgs/members_next.png) no-repeat;}
+.widget-area .widget.widget_speakers a.browse { 
+    width:24px; height:22px; display:block; cursor:pointer; float:left}
 .widget-area .widget.widget_speakers a.disabled {display:none;}
 .widget-area .widget.widget_speakers a.bottom { display:block; float:left; width:181px; height:22px; line-height:22px; text-align:center}
 
 .widget-title,
 .entry-content th,
 .comment-content th {
-    font-size: 11px;
+    font-size: 12px;
     font-size: 0.785714286rem;
     line-height: 2.181818182;
     font-weight: bold;
