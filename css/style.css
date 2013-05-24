@@ -784,7 +784,84 @@ text-align: left;
     border-radius: 5px;
 }
 
-/* search */
+/* speakres croller */
+.widget-area {
+    margin:0;
+    width:230px;
+    background:#CDD9E5;
+    float:right;
+    height:500px;
+}
+.widget-area .widget.widget_speakers { 
+    width:229px; 
+    margin:5px auto; 
+    background:#ffffff; 
+    border: 1px solid #95B4D2;
+}
+
+.widget-area .widget.widget_speakers .widget-title { 
+background: url('..img/PEC_icon.ico') no-repeat #ebf3fa; 
+height:48px; 
+position:relative; 
+padding:14px 0 0 68px; 
+color:#4c6d98; 
+font-size:15px; 
+line-height:18px; 
+font-weight:normal; 
+margin:0}
+
+.speakers {
+    border-top: 1px solid #95B4D2;
+    border-bottom: 1px solid #95B4D2;
+    padding:20px 0px 10px 0px;
+}
+
+
+.speakers {
+    border-top: 1px solid #95B4D2;
+    border-bottom: 1px solid #95B4D2;
+    padding:20px 0px 10px 0px;
+}
+.scrollable {
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    width: 229px;
+    height:600px;   
+}
+.scrollable .items {
+    /* this cannot be too large */
+    height:20000em;
+    width:229px;
+    position:absolute;
+}
+.items div.scroll {
+    float:left;
+}
+.personWrapper{display:block; position:relative; height:77px; margin:0; padding:0; overflow:hidden;}
+.personWrapper .personScroll { position:absolute; bottom:0; left:0; margin:0; padding:0;}
+
+.scrollable .personScroll { display:block; width:210px; height:57px; margin: 0px 0px 20px 10px; background-color: #FFFFFF;}
+.scrollable .w_member_img img { float:left; margin:0px 10px 0px 0px;}
+.scrollable .sidebar_detail {font-family: Arial, Helvetica, sans-serif; color: #999999; font-size: 11px; font-weight: normal;   text-decoration:none; line-height:13px; }
+.widget-area .widget.widget_speakers a.prev { background:url(imgs/members_prev.png) no-repeat;}
+.widget-area .widget.widget_speakers a.next { background:url(imgs/members_next.png) no-repeat;}
+.widget-area .widget.widget_speakers a.browse { width:24px; height:22px; display:block; cursor:pointer; float:left}
+.widget-area .widget.widget_speakers a.disabled {display:none;}
+.widget-area .widget.widget_speakers a.bottom { display:block; float:left; width:181px; height:22px; line-height:22px; text-align:center}
+
+.widget-title,
+.entry-content th,
+.comment-content th {
+    font-size: 11px;
+    font-size: 0.785714286rem;
+    line-height: 2.181818182;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #636363;
+}
+
+
 
 /* messages */
 
