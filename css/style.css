@@ -628,7 +628,7 @@ box-shadow:inset 0px 0px 5px rgba(0,0,0,.5);
 
 .date {
 display: inline-block;
-margin: 40px 0 0px 67px;
+margin: 40px 0 0px 75px;
 color: #fff;
 text-shadow: 1px 1px 1px #000;
 font-weight: bold;
@@ -637,18 +637,18 @@ text-align: left;
 }
 
 .word1 {
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Gothic';
     padding: 10px 0 5px 0;
     letter-spacing: 4px;
-    font-weight: lighter;
+    font-weight: normal;
 
 }
 
 .word2 {
     font-size: 18px;
     font-family: 'Gothic';
-    padding: 20px 0 5px 20px;
+    padding: 20px 0 5px 0;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -657,10 +657,10 @@ text-align: left;
 }
 
 .word3 {
-    padding: 20px 0 5px 15px;
-    font-size: 40px;
-     font-weight: lighter;
-     letter-spacing: 15px;
+    padding: 20px 0 5px 0px;
+    font-size: 25px;
+     font-weight: normal;
+     letter-spacing: 5px;
 }
 
 /* header-bottom */
