@@ -12,6 +12,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+      text-decoration: none;
 }
 
 @font-face {
@@ -126,7 +127,12 @@ h3 {
 }
 
 a {
-    color: #E42313;
+     color: #960400;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #960400;
     text-decoration: none;
 }
 
@@ -663,6 +669,61 @@ text-align: left;
      letter-spacing: 5px;
 }
 
+/* register button */
+ .btnre {
+    text-align: center;
+ }
+
+    .rebtn {
+        
+        -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+        box-shadow:inset 0px 1px 0px 0px #cf866c;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 30%, from(#FFFFFF), to(#960400));
+        background-image: -moz-linear-gradient(0% 30% 0deg,#FFFFFF, #960400);
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        border:1px solid #960400;
+        display:inline-block;
+        text-align: left;
+        color:#ffffff;
+        font-family:'gothic';
+        font-size:25px;
+        font-weight:normal;
+        padding:20px 0 20px 50px;
+        text-decoration: none;
+        width: 220px;
+        height: 20px;
+        text-shadow:0px 1px 0px #854629;
+        transition: all 0.2s ease-in-out 0s;
+      -webkit-box-shadow: 7px 7px 19px rgba(97, 50, 50, 0.71);
+        -moz-box-shadow:    7px 7px 19px rgba(97, 50, 50, 0.71);
+       box-shadow:         7px 7px 19px rgba(97, 50, 50, 0.71);
+        
+    }
+    .rebtn:hover {
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(#FFFFFF), to(#960400));
+        background-image: -moz-linear-gradient(0% 90% 0deg,#FFFFFF, #960400);
+       text-decoration: none;
+       -webkit-box-shadow: 2px 2px 10px rgba(97, 50, 50, 0.71);
+        -moz-box-shadow:    2px 2px 10px rgba(97, 50, 50, 0.71);
+       box-shadow:         2px 2px 10px rgba(97, 50, 50, 0.71);
+       margin-left: 10px;
+       color: #fff;
+  
+        
+    }
+    .rebtn:active {
+        position:relative;
+        top:1px;
+    }
+
+     .rebtn img{
+        padding-left: 20px;
+    }
+
+
 /* header-bottom */
 .header-bottom-holder {
     /*height: 85px;*/
@@ -1062,7 +1123,7 @@ margin:0}
 
 .slide-wrapper-3 a {
     color: #FFF;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .slide-wrapper-4 {
@@ -1298,15 +1359,20 @@ margin:0}
 
 /* columns */
 
-.columns-inner h1{
+.columns-inner > h1 {
     color: #960400;
-}
+    text-decoration: none;
+} 
+
 .column .columns-inner {
     padding: 0 5px;
+    color: #960400;
 }
 
 .first .columns-inner {
     padding: 0 5px 0 0;
+        color: #960400;
+    text-decoration: none;
 }
 
 .last .columns-inner {
@@ -3189,7 +3255,7 @@ html.js fieldset.collapsed {
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     a[href]:after {
