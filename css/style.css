@@ -651,9 +651,9 @@ text-align: left;
         font-family:'gothic';
         font-size:22px;
         font-weight:normal;
-        padding: 15px 0 20px 20px;
+        padding: 15px 0 15px 30px;
         text-decoration: none;
-        width: 220px;
+        width: 230px;
         height: 20px;
         
         text-shadow:0px 1px 0px #854629;
@@ -695,6 +695,61 @@ text-align: left;
        height: 30px;
         
     }
+
+  /*  boxes buttons */
+
+  .btnre2 {
+    text-align: center;
+    padding: 20px 0 30px 0;
+ }
+
+    .rebtn2 {
+        
+        -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+        box-shadow:inset 0px 1px 0px 0px #cf866c;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 30%, from(#FFFFFF), to(#960400));
+        background-image: -moz-linear-gradient(0% 30% 0deg,#FFFFFF, #960400);
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        border:1px solid #960400;
+        display:inline-block;
+        text-align: center;
+        color:#ffffff;
+        font-family:'gothic';
+        font-size:18px;
+        font-weight:normal;
+      padding: 15px 0 10px 0;
+        text-decoration: none;
+        width: 120px;
+        height: 20px;
+        
+        text-shadow:0px 1px 0px #854629;
+        transition: all 0.2s ease-in-out 0s;
+      -webkit-box-shadow: 7px 7px 19px rgba(97, 50, 50, 0.71);
+        -moz-box-shadow:    7px 7px 19px rgba(97, 50, 50, 0.71);
+       box-shadow:         7px 7px 19px rgba(97, 50, 50, 0.71);
+        
+    }
+    .rebtn2:hover {
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(#FFFFFF), to(#960400));
+        background-image: -moz-linear-gradient(0% 90% 0deg,#FFFFFF, #960400);
+       text-decoration: none;
+       -webkit-box-shadow: 2px 2px 10px rgba(97, 50, 50, 0.71);
+        -moz-box-shadow:    2px 2px 10px rgba(97, 50, 50, 0.71);
+       box-shadow:         2px 2px 10px rgba(97, 50, 50, 0.71);
+       margin-left: 10px;
+       color: #fff;
+  
+        
+    }
+    .rebtn2:active {
+        position:relative;
+        top:1px;
+    }
+
+ 
 
 /* header-bottom */
 .header-bottom-holder {
@@ -876,13 +931,13 @@ margin:0
     position:relative;
     overflow: auto;
     width: 229px;
-     height: 520px;
+     height: 500px;
   
 }
 .scrollable .items {
     /* this cannot be too large */
     width:229px;
-    height: 400px;
+    
 }
 .items div.scroll {
     float:left;
@@ -934,8 +989,45 @@ display:block; position:relative; height:77px; margin:0; padding:0; overflow:hid
 
 
 
-/* messages */
+/* boxes */
+.box-info {
+    height: 250px;
+}
 
+.box-info h2 {
+    text-align: center;
+    font-family: 'gothic';
+    font-size: 25px;
+    color: #960400;
+    padding: 50px 0 30px 0;
+    font-weight: bold;
+    }
+
+.box-info p {
+    font-family: 'gothic';
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+    padding: 0px 20px 20px 0;
+    text-align: justify;
+    
+    }
+
+.player {
+    position: relative;
+    left:18px;
+    bottom: -20px;
+}
+
+.my-video h2 {
+     text-align: center;
+    font-family: 'gothic';
+    font-size: 25px;
+    color: #960400;
+    font-weight: bold;
+    width: 500px;
+    margin-top: 10px;
+}
 
 /* tabs */
 .tabs {
