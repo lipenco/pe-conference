@@ -604,7 +604,7 @@ text-align: left;
 .word1 {
     font-size: 30px;
     font-family: 'Gothic';
-    padding: 10px 0 5px 0;
+    padding: 20px 0 5px 0;
     letter-spacing: 4px;
     font-weight: normal;
 
@@ -613,7 +613,7 @@ text-align: left;
 .word2 {
     font-size: 18px;
     font-family: 'Gothic';
-    padding: 20px 0 5px 0;
+    padding: 15px 0 0 0;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -622,11 +622,14 @@ text-align: left;
 }
 
 .word3 {
-    padding: 20px 0 5px 0px;
+    padding: 15px 0 0 0px;
     font-size: 25px;
      font-weight: normal;
      letter-spacing: 5px;
 }
+
+
+
 
 /* register button */
  .btnre {
@@ -635,7 +638,6 @@ text-align: left;
  }
 
     .rebtn {
-        
         -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
         -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
         box-shadow:inset 0px 1px 0px 0px #cf866c;
@@ -749,7 +751,18 @@ text-align: left;
         top:1px;
     }
 
- 
+ #clients { z-index:3} /*661*/
+#clients div.top {background:url(../img/clients_bg.png) 51.05% 0; width:100%; height:110px; position:absolute; top:-110px}
+#clients div.center {background:url(../img/clients_bg.png) 51.05% -110px; width:100%; padding-bottom:110px}
+#clients div.bottom {background:url(../img/clients_bg.png) 51.05% 100%; width:100%; height:110px; position:absolute; bottom:-110px}
+#clients div.content {width:900px; margin:0 auto; padding:55px}
+#clients div.content div.line {overflow:hidden; position:relative; top:-110px}
+#clients div.content div.line_even {margin-left:110px}
+#clients div.content span {float:left; width:110px; height:110px; margin:0 55px; opacity:0.5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50)}
+#clients div.content span:hover {opacity:1; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+#clients div.content img {display:block; margin:0 auto}ding-bottom: 110px;
+}
+
 
 /* header-bottom */
 .header-bottom-holder {
@@ -2483,11 +2496,7 @@ html.js fieldset.collapsed {
     padding: 0;
 }
 
-#overlay input[type="text"],
-#overlay input[type="password"],
-#overlay textarea {
-    background: #FFF;
-}
+
 
 /* my-tabs */
 .my-tabs-tabs {
