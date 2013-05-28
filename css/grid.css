@@ -15,7 +15,8 @@
 */
 
 body {
-  min-width: 920px;
+  min-width: 1160px;
+  zoom:0.9;
 }
 
 /* Containers
