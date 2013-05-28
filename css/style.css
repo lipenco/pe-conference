@@ -634,7 +634,7 @@ text-align: left;
 /* register button */
  .btnre {
     text-align: center;
-    padding: 30px 0 30px 0;
+    padding: 40px 0 20px 0;
  }
 
     .rebtn {
@@ -751,17 +751,7 @@ text-align: left;
         top:1px;
     }
 
- #clients { z-index:3} /*661*/
-#clients div.top {background:url(../img/clients_bg.png) 51.05% 0; width:100%; height:110px; position:absolute; top:-110px}
-#clients div.center {background:url(../img/clients_bg.png) 51.05% -110px; width:100%; padding-bottom:110px}
-#clients div.bottom {background:url(../img/clients_bg.png) 51.05% 100%; width:100%; height:110px; position:absolute; bottom:-110px}
-#clients div.content {width:900px; margin:0 auto; padding:55px}
-#clients div.content div.line {overflow:hidden; position:relative; top:-110px}
-#clients div.content div.line_even {margin-left:110px}
-#clients div.content span {float:left; width:110px; height:110px; margin:0 55px; opacity:0.5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50)}
-#clients div.content span:hover {opacity:1; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
-#clients div.content img {display:block; margin:0 auto}ding-bottom: 110px;
-}
+
 
 
 /* header-bottom */
@@ -1041,6 +1031,54 @@ display:block; position:relative; height:77px; margin:0; padding:0; overflow:hid
     width: 500px;
     margin-top: 10px;
 }
+
+
+.sponsor {
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin: 30px 0 30px 0;
+    border-style: inset;
+    border-color: #e5e4e2;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.platinum {
+    position:relative;
+    left: 65px;
+   
+}
+
+.gold {
+    position:relative;
+    left: 132px;
+    
+}
+
+.silver {
+    position:relative;
+    left: 200px;
+   
+}
+
+.sponsor h2 {
+    text-align: center;
+    font-family: 'gothic';
+    font-size: 25px;
+    color: #960400;
+    padding: 50px 0 30px 0;
+    font-weight: bold;
+    }
+
+
+.sponsor img {width:110px; height:110px; opacity:0.5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50)}
+.sponsor img:hover {opacity:1; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+
+.sponsor:hover {
+    border-color: #e5e4e2;
+    border-style: outset;
+}
+
 
 /* tabs */
 .tabs {
@@ -1385,6 +1423,8 @@ display:block; position:relative; height:77px; margin:0; padding:0; overflow:hid
 
 .text-style-2 {
     border-bottom: 1px solid #BEBEBE;
+    padding-top:30px;
+    padding-bottom: 30px,
 }
 
 .text-style-2.text-height-1 {
