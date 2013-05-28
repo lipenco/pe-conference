@@ -2232,7 +2232,7 @@ text-decoration: none;
 
 
 #footer {
-padding: 20px 0 20px 0;
+padding: 20px 0 30px 0;
 color: #808281;
 text-align: center;
 background: url(../img/footer.png);
@@ -2280,6 +2280,10 @@ opacity: 1;
 padding: 15px 0 25px;
 }
 
+.hosted-by {
+padding: 10px 0 25px;
+
+}
 
 
 /* news */
