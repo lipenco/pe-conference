@@ -13,6 +13,7 @@ body {
     font-size: 1em;
     line-height: 1.4;
       text-decoration: none;
+       text-decoration: none !important;
 
 }
 
@@ -135,6 +136,7 @@ a {
 a:hover{
     color: #960400;
     text-decoration: none;
+
 }
 
 a:focus {
@@ -160,6 +162,7 @@ ul,
 ol {
     margin: 0 0 20px 0;
     padding: 0 0 0 20px;
+     text-decoration: none;
 }
 
 strong {
@@ -2283,6 +2286,25 @@ padding: 15px 0 25px;
 .hosted-by {
 padding: 10px 0 25px;
 
+}
+
+.register a {
+width: 50px;
+height: 165px;
+background: url(../img/register.png);
+position: fixed;
+left: 0;
+top: 290px;
+text-indent: -9999px;
+cursor: pointer;
+margin-left: -5px;
+text-decoration: none;
+
+}
+
+.register a:hover{
+  margin-left:0px;
+  text-decoration: none;
 }
 
 
