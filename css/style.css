@@ -1070,12 +1070,11 @@ display:block; position:relative; height:77px; margin:0; padding:0; overflow:hid
 .sponsor img:hover {opacity:1; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
 
 .sponsor:hover {
-   
-    -webkit-box-shadow: 6px 7px 13px rgba(50, 50, 50, 0.75);
+border-style: outset;
+-webkit-box-shadow: 6px 7px 13px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    6px 7px 13px rgba(50, 50, 50, 0.75);
 box-shadow:         6px 7px 13px rgba(50, 50, 50, 0.75);
-  /*  border-color: #e5e4e2;
-    border-style: outset;*/
+
 }
 
 
@@ -1387,8 +1386,9 @@ box-shadow:         6px 7px 13px rgba(50, 50, 50, 0.75);
 
 .text-style-2 {
     border-bottom: 1px solid #BEBEBE;
-    padding-top:30px;
-    padding-bottom: 30px,
+  
+    padding-bottom: 20px;
+    margin-bottom:20px;
 }
 
 .text-style-2.text-height-1 {
@@ -1515,7 +1515,8 @@ box-shadow:         6px 7px 13px rgba(50, 50, 50, 0.75);
 }
 
 .collapsible-content-inner {
-    padding: 20px 0;
+    padding: 20px 0 20px;
+
 }
 
 /* product */
@@ -2026,55 +2027,6 @@ text-decoration: none;
 
 .ajax-progress {
     display: none;
-}
-
-/* flag */
-.flag {
-    background: url(../img/flag.png);
-    bottom: 15px;
-    height: 26px;
-    position: absolute;
-    right: 0;
-    text-indent: -9999px;
-    width: 10px;
-}
-
-.unflag-action {
-    background-position: 0 -26px;
-}
-
-.flag-waiting .flag {
-    filter: alpha(opacity=50);
-    opacity: 0.5;
-}
-
-/* twitter */
-.twitter {
-    /*height: 210px;*/
-    padding: 0 0 15px 0;
-}
-
-.twitter-header {
-    border-bottom: 1px solid #CCC;
-    height: 30px;
-    margin: 0 0 10px 0;
-}
-
-.twitter-status {
-    margin: 0 0 20px 0;
-}
-
-.twitter-text {
-    margin: 0 0 5px 0;
-}
-
-.twitter-created-at {
-    color: #A6B3BC;
-    float: left;
-}
-
-.twitter-reply {
-    float: right;
 }
 
 /* scrollbar1 */
