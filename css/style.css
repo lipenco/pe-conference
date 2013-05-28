@@ -146,6 +146,7 @@ a:focus {
 li a.active {
     color: #960400;
     text-decoration: none;
+
 }
 
 li a:hover{
@@ -993,6 +994,24 @@ display:block; position:relative; height:77px; margin:0; padding:0; overflow:hid
     text-transform: uppercase;
     color: #636363;
 }
+
+/*twitter*/
+
+div.footer-twitter-wrapper {
+background-color: #1bc4de;
+list-style: none;
+}
+
+div.footer-twitter-wrapper {
+padding: 19px 0px;
+list-style: none;
+}
+
+.gdl-twitter-wrapper ul {
+    text-decoration: none;
+    list-style: none;
+}
+
 
 
 
