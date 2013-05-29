@@ -1169,6 +1169,36 @@ font-size: 16pt;
 line-height: 22pt;
 letter-spacing: 1px;
 }
+.content2 h1 {
+    text-align: center;
+    color: #960400;
+    font-size: 40px;
+    padding: 10px 0 30px 0;
+    margin-bottom: 20px;
+    font-family: 'gothic';
+
+}
+
+.content2 p {
+    text-align: justify;
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'gothic';
+    line-height: 40px;
+
+}
+
+.content2 h2 {
+    text-align: left;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'gothic';
+    line-height: 40px;
+
+}
 
 .double-border{
     height:3px;
@@ -1249,19 +1279,19 @@ display: block;
 
 .right-content {
     width:460px;
-    font-size: 25px;
+    font-size: 23px;
     line-height:30px;
     font-weight: 400px;
 }
 
 .right-content strong em {
-    font-size: 25px;
+    font-size: 23px;
     line-height:30px;
     font-weight: 400px;
 }
 
 .right-content .strong1 {
-     font-size: 25px;
+     font-size: 23px;
       line-height:30px;
     font-style: italic;
     font-weight: bold;
@@ -1270,7 +1300,7 @@ display: block;
 
 .panelists li {
     width:450px;
-    font-size: 25px;
+    font-size: 23px;
     line-height:30px;
     padding-top: 10px;
     font-weight: 200;
