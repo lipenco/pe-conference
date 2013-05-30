@@ -430,44 +430,6 @@ textarea {
     margin: 7px 0 0 0;
 }
 
-/* countdown */
-
-.cd-title h4{
-font-size: 20px;
-text-align: center;
-} 
-
-
-#countdown {
-background: #fff;
-border: 0px;
-margin: 5px 0 0 0;
-width: 100%;
-padding: 0px 0px 0px 0px;
-float: left;
-}
-
-.hasCountdown {
-border: 1px solid #ccc;
-border-top: none;
-background-image: -webkit-gradient(linear, 0% 0%, 0% 150%, from(#FFFFFF), to(#960400));
-background-image: -moz-linear-gradient(0% 150% 0deg,#FFFFFF, #960400);
-
-font-size: 20px;
-padding-top: 10px;
-height: 40px;
-}
-
-
-.count {
-
-border: 2px solid #960400;
-box-shadow: 0 3px 0 #FFFFFF;
-color: #000000;
-box-shadow:inset 0px 0px 5px rgba(0,0,0,.5);
--webkit-box-shadow:inset 0px 5px 5px rgba(0,0,0,.5);
--moz-box-shadow:inset 0px 5px 5px rgba(0,0,0,.5);
-}
 
 
 
@@ -2079,18 +2041,13 @@ height: 30px;
 }
 
 .countdown-bar {
-
-    height: 380px;
+    height: 92.85%;
     margin: 0 0 0 0;
     position: absolute;
     top: 0%;
-    width: 230px;
+    width: 260px;
     z-index: 101;
-    right: -245px;
-
-     -webkit-box-shadow: 4px 5px 13px rgba(50, 50, 50, 0.75);
--moz-box-shadow:    4px 5px 13px rgba(50, 50, 50, 0.75);
-box-shadow:         4px 5px 13px rgba(50, 50, 50, 0.75);
+    right: -285px;
 }
 
 .countdown-bar-menu li {
@@ -2098,7 +2055,7 @@ box-shadow:         4px 5px 13px rgba(50, 50, 50, 0.75);
 }
 
 .countdown-bar-menu li a {
-    border: 2px solid #960400;
+border: 2px solid #960400;
 border-bottom: 2px solid #960400;
 box-shadow: 0 3px 0 #FFFFFF;
 color: #fff;
@@ -2109,10 +2066,10 @@ font-size: 20px;
 font-weight: 500;
 padding-bottom: 10px;
 padding-top: 15px;
-margin-bottom: 2px;
+margin-bottom: 0;
 position: relative;
 transition: all 0.2s ease-in-out 0s;
-width: 226px;
+width: 98.5%;
 float: right;
 text-decoration: none;
 text-align: center;
@@ -2136,13 +2093,13 @@ text-decoration: none;
 .countdown-bar-menu2 li {
     list-style: none;
     display: block; 
-    width: 220px;
+    width: 98%;
     float: right;
 }
 
 
 .countdown-bar-menu2  li a {
-width: 220px;
+ width: 98%;
 border-bottom: 2px solid #960400;
 box-shadow: 0 3px 0 #FFFFFF;
 box-shadow:inset 0px 10px 10px rgba(0,0,0,.5);
@@ -2150,10 +2107,9 @@ box-shadow:inset 0px 10px 10px rgba(0,0,0,.5);
 -moz-box-shadow:inset 0px 10px 10px rgba(0,0,0,.5);
 color: #000000;
 display: block;
-font-size: 16px;
-font-weight: 400;
-padding: 12px 10px 7px 0;
-position: relative;
+font-size: 1.2em;
+font-weight: 600;
+padding: 16px 10px 6px 0;
 transition: all 0.2s ease-in-out 0s;
 float: right;
 text-decoration: none;
@@ -2177,7 +2133,34 @@ opacity: 0.5;
 text-decoration: none;
 }
 
+/* countdown */
 
+.cd-title {
+font-size: 1em;
+text-align: center;
+} 
+
+
+#countdown {
+background: #fff;
+border: 0px;
+margin: 0;
+width: 100%;
+padding: 0;
+float: left;
+font-size: 2em;
+}
+
+#countdown p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+     padding-bottom: 15px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    margin: 0;
+}
 
 
 .event-slideshow-pager {

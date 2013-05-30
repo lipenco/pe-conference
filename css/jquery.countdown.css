@@ -1,13 +1,18 @@
 /* jQuery Countdown styles 1.6.2. */
 .hasCountdown {
-	border: 1px solid #ccc;
+	border: 5px solid #ccc;
 	background-color: #eee;
+	height: 30px;
+	padding-bottom: 20px;
+	padding-top: 17px;
 }
+
 .countdown_rtl {
 	direction: rtl;
 }
 .countdown_holding span {
 	color: #888;
+	height: 80px;
 }
 .countdown_row {
 	clear: both;
@@ -37,11 +42,13 @@
 	width: 14%;
 }
 .countdown_section {
+	position: relative;
+	top: 0px;
 	display: block;
 	float: left;
-	font-size: 75%;
+	font-size: 65%;
 	text-align: center;
-	height: 50px;
+
 }
 .countdown_amount {
 	font-size: 200%;
@@ -49,4 +56,5 @@
 .countdown_descr {
 	display: block;
 	width: 100%;
+	font-size: 200%;
 }
