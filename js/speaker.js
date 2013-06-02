@@ -29,7 +29,7 @@ $(document).ready(function(){
   }); 
   
   $("#carousel").carouFredSel({
-    items: 6,
+    items: 5,
     width:"100%",
     direction: "left",
     align: "center",
@@ -38,7 +38,7 @@ $(document).ready(function(){
     infinite: true,
     responsive: false,
     items: {
-      visible: 6
+      visible: 5
     },
     scroll: {
       items: 1
@@ -238,7 +238,7 @@ function resetPositions($currentrow, callback) {
   $('.speaker').not('#speaker-description').animate({ marginTop: 0, paddingTop: 0, borderTopWidth: 0 }, 'fast', function(){   
     if( --numDivs > 0 ) return;
     console.log("callback called once");
-    $('.footer-wrapper').animate({ marginTop: 0 });
+    $('.footer-wrapper').animate({ marginTop: 90 });
     if (callback && typeof(callback) === "function") {
       callback();
     }
@@ -254,9 +254,9 @@ function calculatePositions($currentrow) {
   $nextrowdivs = [];
   $heights = [];
   
-  $start = 0 + ($currentrow * 6);
+  $start = 0 + ($currentrow * 5);
   
-  $end = 5 + ($currentrow * 6);
+  $end = 4 + ($currentrow * 5);
   
   for (i = $start; i <= $end; i++) {
     $currentrowdivs.push($($('.speaker').not('#speaker-description').get(i)));
@@ -278,9 +278,9 @@ function calculatePositions($currentrow) {
   
   $('.speaker-description-container').css('top', $oh.top + $tallest_item_height + 50);
   
-  $start_next = 0 + (($currentrow+1) * 5);
+  $start_next =  (($currentrow+1) * 5);
   
-  $end_next = 5 + (($currentrow+1) * 5);
+  $end_next = 5 + (($currentrow+1) * 6);
   
   for (i = $start_next; i <= $end_next; i++) {
     $nextrowdivs.push($($('.speaker').not('#speaker-description').get(i)));
@@ -293,7 +293,7 @@ function calculatePositions($currentrow) {
   totalHeight += parseInt(theDiv.css("borderTopWidth"), 10) + parseInt(theDiv.css("borderBottomWidth"), 10); //Total Border Width
   
   for (i = 0; i < $nextrowdivs.length; i++){    
-    $($nextrowdivs[i]).animate({ marginTop: totalHeight +90 }, 'fast');
+    $($nextrowdivs[i]).animate({ marginTop: totalHeight +50 }, 'fast');
   }
   
   $nextrowdivs = cleanArray($nextrowdivs);
@@ -376,7 +376,7 @@ function perform_wizardry_speakers() {
 
     window_scroll = $(this).scrollTop();
 
-    var margin_top = parseInt((window_scroll/6)) + parseInt(header_in_margin_top);
+    var margin_top = parseInt((window_scroll/5)) + parseInt(header_in_margin_top);
     
     if (window_scroll > 40)
     {
