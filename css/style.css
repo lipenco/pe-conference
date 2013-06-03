@@ -848,11 +848,19 @@ th.rule4 {
 
 .agenda p {
     text-align: justify;
-    font-size: 1.7em;
-    line-height: 1.8em;
+    font-size: 1.8em;
+    line-height: 1.9em;
     padding: 20px 0 0 0;
     font-family: 'gothic';
 
+}
+
+.speaker-info p {
+    text-align: justify;
+    font-size: 1.8em;
+    line-height: 1.9em;
+    padding: 20px 0 20px 0;
+    font-family: 'gothic';
 }
 /*
  * Clearfix: contain floats
@@ -1028,7 +1036,7 @@ display:block; position:relative; height:77px; margin:0; padding:0; overflow:hid
 
 .modal-body {
      font-size: 18px;
-     line-height: 22px;
+     line-height: 23px;
      text-align: justify;
      padding: 35px;
 
