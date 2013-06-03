@@ -1027,11 +1027,13 @@ display:block; position:relative; height:77px; margin:0; padding:0; overflow:hid
 #myModalLabel {
     font-size: 30px;
     padding: 15px 0 15px 0;
-}
+     font-family: 'gothic'
+    }
 
 #myModalLabel em {
     font-size: 25px;
     padding: 15px 0 15px 0;
+     font-family: 'gothic'
 }
 
 .modal-body {
@@ -1039,6 +1041,7 @@ display:block; position:relative; height:77px; margin:0; padding:0; overflow:hid
      line-height: 23px;
      text-align: justify;
      padding: 35px;
+     font-family: 'gothic'
 
 }
 /*twitter*/
