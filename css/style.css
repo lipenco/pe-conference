@@ -466,11 +466,6 @@ textarea {
     padding-right: 10px;
     width: 25px;
     position: relative;
-    top: 4px;
-
-  
-
-
 }
 
 .user-menu .last {
@@ -1020,6 +1015,24 @@ display:block; position:relative; height:77px; margin:0; padding:0; overflow:hid
     color: #636363;
 }
 
+
+#myModalLabel {
+    font-size: 30px;
+    padding: 15px 0 15px 0;
+}
+
+#myModalLabel em {
+    font-size: 25px;
+    padding: 15px 0 15px 0;
+}
+
+.modal-body {
+     font-size: 18px;
+     line-height: 22px;
+     text-align: justify;
+     padding: 35px;
+
+}
 /*twitter*/
 
 div.footer-twitter-wrapper {
