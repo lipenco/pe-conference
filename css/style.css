@@ -544,7 +544,7 @@ textarea {
 /* banner */
 .banner {
     padding: 0 0 0 0;
-    background-image: url('../img/baner.png');
+    background-image: url('../img/baner1.png');
     text-align: center;
     margin: 15px 0 10px 0;
     height:200px;
@@ -568,12 +568,13 @@ textarea {
 
 .date {
 display: inline-block;
-margin: 40px 0 0px 75px;
-color: #fff;
+margin: 40px 0 0px 60px;
+color: #000;
 text-shadow: 1px 1px 1px #000;
 font-weight: bold;
 text-transform: uppercase;
 text-align: left;
+float: left;
 }
 
 .word1 {
