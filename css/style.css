@@ -1393,8 +1393,27 @@ height: 30px;
 }
  
 
-    
+/* sponsors page */
 
+.d-all {
+width: 100%;
+margin-left: 0;
+clear: left;
+}
+
+
+.db1-db2 {
+width: 48.046875%;
+margin-left: 0;
+clear: left;
+}
+
+.db3-db4 {
+width: 48.046875%;
+display: block;
+float: left;
+margin-right: -100%;
+}
 /*
  * Clearfix: contain floats
  *
