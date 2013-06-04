@@ -1414,6 +1414,17 @@ display: block;
 float: left;
 margin-right: -100%;
 }
+
+.sponsors {
+    text-align: justify;
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-family: 'gothic';
+    line-height: 40px;
+    padding-bottom: 50px;
+}
+
 /*
  * Clearfix: contain floats
  *
