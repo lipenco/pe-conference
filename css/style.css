@@ -544,21 +544,25 @@ textarea {
 /* banner */
 .banner {
     padding: 0 0 0 0;
-    background-image: url('../img/baner1.png');
+    background-image: url('../img/baner2.png');
     text-align: center;
     margin: 15px 0 10px 0;
     height:200px;
+    border-style: outset;
+    border-color: #e5e4e2;
+    transition: all 0.4s ease-in-out 0s;
    
 }
 
-.banner-bottom{
-    padding: 0 0 0 0;
-    background-image: url('../img/baner.png');
-    text-align: center;
-    margin: 15px 0 10px 0;
-    height:200px;
-   
+.banner:hover {
+border-style: inset;
+-webkit-box-shadow: 6px 7px 13px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    6px 7px 13px rgba(50, 50, 50, 0.75);
+box-shadow:         6px 7px 13px rgba(50, 50, 50, 0.75);
+
 }
+
+
 
 .banner img {
     
@@ -582,7 +586,7 @@ float: left;
     font-family: 'Gothic';
     padding: 20px 0 5px 0;
     letter-spacing: 4px;
-    font-weight: normal;
+    font-weight: bold;
 
 }
 
@@ -590,7 +594,7 @@ float: left;
     font-size: 18px;
     font-family: 'Gothic';
     padding: 15px 0 0 0;
-    font-weight: lighter;
+    font-weight: bold;
     letter-spacing: 2px;
 }
 .word2 span {
@@ -600,7 +604,7 @@ float: left;
 .word3 {
     padding: 15px 0 0 0px;
     font-size: 25px;
-     font-weight: normal;
+     font-weight: bold;
      letter-spacing: 5px;
 }
 
@@ -838,11 +842,11 @@ th.rule4 {
 }
 
 .agenda h1, .clearfix h1 {
-    text-align: center;
+    text-align: left;
     color: #960400;
-    font-size: 40px;
-    padding: 40px 0 30px 0;
-    margin-bottom: 20px;
+    font-size: 50px;
+    padding: 40px 0 20px 0;
+    margin-bottom: 0px;
     font-family: 'gothic';
 
 }
@@ -1047,22 +1051,13 @@ display:block; position:relative; height:77px; margin:0; padding:0; overflow:hid
 }
 /*twitter*/
 
-div.footer-twitter-wrapper {
-background-color: #1bc4de;
-list-style: none;
+
+.logo img {
+
+    padding: 55px 0 0 50px;
+    float: left;
+
 }
-
-div.footer-twitter-wrapper {
-padding: 19px 0px;
-list-style: none;
-}
-
-.gdl-twitter-wrapper ul {
-    text-decoration: none;
-    list-style: none;
-}
-
-
 
 
 /* boxes */
@@ -1093,10 +1088,10 @@ list-style: none;
 
 .box-info2 p {
     font-family: 'gothic';
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 23px;
+    line-height: 36px;
     color: #000;
-    padding: 10px 30px 30px 0;
+    padding: 10px 30px 20px 0;
     text-align: justify;
     
     }
@@ -1117,6 +1112,9 @@ list-style: none;
     margin-top: 10px;
 }
 
+.read {
+    text-align: left;
+}
 
 .sponsor {
     height: 250px;
@@ -1227,7 +1225,7 @@ line-height: 22pt;
 letter-spacing: 1px;
 }
 .content2 h1 {
-    text-align: center;
+    text-align: left;
     color: #960400;
     font-size: 40px;
     padding: 10px 0 30px 0;
@@ -1416,16 +1414,20 @@ float: left;
 margin-right: -100%;
 }
 
-.sponsors {
+.sponsors p {
     text-align: justify;
     color: #000;
     font-size: 25px;
     margin-bottom: 40px;
     font-family: 'gothic';
     line-height: 40px;
-    padding-bottom: 50px;
+    padding: 30px 0 30px ;
 }
 
+.sponsor img {
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
 /*
  * Clearfix: contain floats
  *
@@ -2231,7 +2233,7 @@ margin-right: -100%;
 
 .event-slideshow-wrapper-2 h1 {
     color: #A6B3BC;
-    margin: 0 0 10px 0;
+    margin: 0 ;
 }
 
 .event-slideshow-social ul {
@@ -2708,6 +2710,7 @@ text-align: center;
 background: url(../img/footer.png);
 position: relative;
 z-index: 101;
+margin-top: 50px;
 
 border-top: 1px solid #BEBEBE;
 }
